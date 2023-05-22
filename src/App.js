@@ -8,6 +8,7 @@ function App() {
       <div className='product-page-container' onClick={()=> alert("clicked")}>
         this is product page container
       </div>
+      <button onClick={()=> alert("clicked test Click")}>Test Click</button>
     </div>
   );
 }
