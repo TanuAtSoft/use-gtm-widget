@@ -1,10 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(()=>{
+    function getProductId () {
+      return document.getElementById('productSku').innerText
+    }
+    console.log("getProductId",getProductId())
+  },[])
+
+ 
   return (
     <div className="App">
       <h1>Testing App for GTM</h1>
+      <div id="productSku">62c699da39c7fe91d77f2dec</div>
       <div className="intelistyle-container">
        <p className="test-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar
