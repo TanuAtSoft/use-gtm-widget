@@ -67,7 +67,9 @@ function App() {
         vulputate ut pharetra sit amet.
         </p>
 
-        <div id="widgetDiv"></div>
+        <div id="widgetDiv">
+          testing this
+        </div>
       </div>
 
     </div>
