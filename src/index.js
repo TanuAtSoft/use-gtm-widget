@@ -10,8 +10,8 @@ import reportWebVitals from './reportWebVitals';
 // }
 
 // TagManager.initialize(tagManagerArgs)
-const siteRoot = ReactDOM.createRoot(document.getElementById('siteRoot'));
-siteRoot.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
