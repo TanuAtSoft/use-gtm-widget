@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Testing App for GTM</h1>
-      <div className="product-page-container" onClick={() => alert("clicked")}>
+      <div className="intelistyle-container">
        <p className="test-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar
         mattis nunc sed. Facilisi cras fermentum odio eu feugiat pretium nibh
